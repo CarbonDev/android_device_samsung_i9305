@@ -123,4 +123,6 @@
          audio routing, FORCE_BT_CAR_DOCK, with an analog dock, FORCE_ANALOG_DOCK. -->
     <bool name="config_forceAnalogCarDock">true</bool>
 
+    <!-- Hide "Backlight" settings since not supported (timeout controlled by kernel) -->
+    <integer name="config_buttonBrightnessSettingDefault">0</integer>
 </resources>
