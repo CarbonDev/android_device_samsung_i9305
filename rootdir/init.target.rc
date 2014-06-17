@@ -146,12 +146,3 @@ service qmuxd /system/bin/qmuxd
     user root
     seclabel u:r:qmux:s0
     group radio log audio bluetooth gps log
-
-# TVout
-service TvoutService_C /system/bin/bintvoutservice
-    class main
-    user system
-    group graphics
-
-on property:ro.tvout.enable=false
-    stop TvoutService_C
