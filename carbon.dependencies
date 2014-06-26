@@ -11,12 +11,6 @@
     },
     {
         "remote": "gh",
-        "repository": "SlimRoms/android_prebuilt",
-        "target_path": "prebuilt",
-        "revision": "kk4.4"
-    },
-    {
-        "remote": "gh",
         "repository": "omnirom/android_kernel_samsung_smdk4412",
         "target_path": "kernel/samsung/smdk4412",
         "revision": "android-4.4"
